@@ -40,3 +40,7 @@ SQLite is used for storing:
 Users (id, name, email, password, etc.)
 
 Current logged-in user (to manage sessions)
+
+## Screenshots
+1. Login page
+2. 
