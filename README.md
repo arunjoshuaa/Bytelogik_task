@@ -47,4 +47,4 @@ Current logged-in user (to manage sessions)
 2. Register page
    ![Image Alt](https://github.com/arunjoshuaa/Bytelogik_task/blob/99c0c058f01a0ac79d0176c9b071f3a9564fcdf7/registrebytlogic.jpg)
 3. Counter page
-   ![Image Alt]([image_url](https://github.com/arunjoshuaa/Bytelogik_task/blob/99c0c058f01a0ac79d0176c9b071f3a9564fcdf7/home_bytelogic.jpg))
+   ![Image Alt](https://github.com/arunjoshuaa/Bytelogik_task/blob/46647e1e27f88a781b1905af1e356b7db21cf467/home_bytelogic.jpg)
