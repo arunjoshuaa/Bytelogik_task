@@ -43,4 +43,8 @@ Current logged-in user (to manage sessions)
 
 ## Screenshots
 1. Login page
-2. 
+   ![Image Alt](https://github.com/arunjoshuaa/Bytelogik_task/blob/26be485ecfb9ec5c2d88f9c306bad13cd50152a5/loginbytelogik.jpg)
+2. Register page
+   ![Image Alt](image_url)
+3. Counter page
+   ![Image Alt](image_url)
