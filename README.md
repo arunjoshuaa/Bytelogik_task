@@ -24,14 +24,12 @@ A Flutter project for demonstrating authentication and user management using **S
    ```bash
    git clone https://github.com/your-username/bytelogik_task.git
    cd bytelogik_task
+   
 2. Install dependencies:
-
-flutter pub get
-
+   flutter pub get
 
 3. Run the app:
-
-flutter run
+   flutter run
 
 Database
 
