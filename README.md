@@ -1,16 +1,42 @@
-# bytelogik_task
+# ByteLogik Task
 
-A new Flutter project.
+A Flutter project for demonstrating authentication and user management using **SQLite** as the local database.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User Registration (sign up with name, email, password, etc.)
+- User Login (with SQLite validation)
+- Session Management (remembers the logged-in user even after closing the app)
+- Logout functionality
+- Local persistence using SQLite
+- Simple and clean project structure
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK (>=3.0.0 recommended)
+- Dart (>=3.0.0 recommended)
+- Android Studio / VS Code
+- Emulator or physical device for testing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/bytelogik_task.git
+   cd bytelogik_task
+2. Install dependencies:
+
+flutter pub get
+
+
+3. Run the app:
+
+flutter run
+
+Database
+
+SQLite is used for storing:
+
+Users (id, name, email, password, etc.)
+
+Current logged-in user (to manage sessions)
