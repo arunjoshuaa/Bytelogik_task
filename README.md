@@ -8,7 +8,7 @@ A Flutter project for demonstrating authentication and user management using **S
 - User Login (with SQLite validation)
 - Session Management (remembers the logged-in user even after closing the app)
 - Logout functionality
-- Local persistence using SQLite
+- Local persistence using SQLite(mobile) and Hive(web)
 - Simple and clean project structure
 
 ## Requirements
@@ -16,7 +16,7 @@ A Flutter project for demonstrating authentication and user management using **S
 - Flutter SDK (>=3.0.0 recommended)
 - Dart (>=3.0.0 recommended)
 - Android Studio / VS Code
-- Emulator or physical device for testing
+- Emulator or physical of web device for testing
 
 ## Setup Instructions
 
