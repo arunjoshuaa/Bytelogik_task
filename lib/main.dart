@@ -11,6 +11,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   final db = DBService();
+    await db.init(); // ✅ make sure DB is ready before using it
   final currentUserMap = await db.getCurrentUser();
   print("currentUserMap: $currentUserMap");
 

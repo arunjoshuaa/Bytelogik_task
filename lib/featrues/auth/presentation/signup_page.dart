@@ -133,7 +133,7 @@ class _SignupPageState extends ConsumerState<SignupPage> {
                       child: ElevatedButton(
                         onPressed: () async {
                           final name = _nameController.text.trim();
-                          final email = _emailController.text.trim();
+                          final email = _emailController.text.trim().toLowerCase();
                           final password = _passwordController.text.trim();
                           final confirmPassword =
                               _confirmPasswordController.text.trim();
@@ -184,7 +184,8 @@ class _SignupPageState extends ConsumerState<SignupPage> {
                               const SnackBar(
                                   content: Text("Signup successful")),
                             );
-                            Navigator.pop(context);
+                            Navigator.pushReplacementNamed(context, '/login');
+
                           }
                         },
                         style: ElevatedButton.styleFrom(
