@@ -1,6 +1,6 @@
 # ByteLogik Task
 
-A Flutter project for demonstrating authentication and user management using **SQLite** as the local database.
+A Flutter project for demonstrating authentication and user management using **SQLite** and **Hive** as the local database.
 
 ## Features
 
@@ -33,7 +33,7 @@ A Flutter project for demonstrating authentication and user management using **S
 
 Database
 
-SQLite is used for storing:
+SQLite and Hive is used for storing:
 
 Users (id, name, email, password, etc.)
 
